@@ -49,7 +49,7 @@ def database():
    liking=interest.get()#label8
    rating=var2.get()#label9
    exp=var3.get()#label10
-   conn = mysql.connect(user='root',password='jsn',host='127.0.0.1')
+   conn = mysql.connect(user='****',password='***',host='127.0.0.1')
    d=conn.cursor()
    d.execute('use manila')
    """d.execute('create table student(FirstName varchar(255),Middlename varchar(255),Lastname varchar(255),Email varchar(255),Gender varchar(255),Country  varchar(255),Programming varchar(2255),Feedback varchar(255),Interest varchar(255),Rating varchar(255),Experience varchar(255))')"""
